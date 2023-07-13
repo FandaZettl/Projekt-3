@@ -1,0 +1,156 @@
+/* GENERAL */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* HEADER */
+header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: #083566;
+	height: 70px;
+}
+.logo {
+	flex-grow: 1;
+}
+.logo img {
+	width: 200px;
+	margin-left: 20px;
+}
+/* nav */
+nav {
+	margin-right: 30px;
+}
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+nav li a {
+	color: white;
+	text-decoration: none;
+}
+.menu-icon {
+	display: none;
+	margin-right: 30px;
+}
+
+/* theme switcher */
+#theme-switcher {
+	width: 50px;
+	height: 35px;
+	border-bottom-left-radius: 20%;
+	border: none;
+	font-size: x-small;
+	cursor: pointer;
+	background-color: #083566;
+	color: white;
+	position: absolute;
+}
+.btn {
+	display: flex;
+	justify-content: end;
+}
+
+/* ABOUT US */
+.photos img {
+	width: 400px;
+	margin: 20px;
+	object-fit: scale-down;
+	transition: all 150ms ease-out;
+}
+.photos {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+.about-us h1 {
+	text-align: center;
+	padding: 10px;
+	text-decoration: underline;
+	font-size: 50px;
+}
+p {
+	text-align: center;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 20px;
+	font-size: 25px;
+}
+
+/* REGISTRATION FORM */
+.registration h1 {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	font-size: 35px;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+form input {
+	background-color: transparent;
+	border: none;
+	border-bottom: 3px solid black;
+	text-align: center;
+	padding: 5px 10px;
+}
+form input[type="submit"] {
+	border: none;
+	margin-bottom: 20px;
+	background-color: #083566;
+	color: white;
+	cursor: pointer;
+}
+.valid {
+	color: rgb(5, 59, 186);
+	font-size: larger;
+}
+.invalid {
+	color: rgb(164, 6, 6);
+	font-size: larger;
+}
+
+/* scrollUpButton */
+#scrollUpButton {
+	display: none;
+	position:fixed;
+	bottom: 20px;
+	right: 2Opx;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #333;
+	color: #fff;
+	font-size: 24px;
+	border: none;
+	margin: 10px;
+	outline: none;
+	cursor: pointer;
+}
+#scrollUpButton:hover {
+	background-color: #555;
+}
+.scrollBtn {
+	display: flex;
+	justify-content: end;
+}
+
+/* FOOTER */
+footer {
+	background-color: #083566;
+	color: white;
+	font-size: small;
+	height: 40px;
+	text-align: center;
+}
+footer a {
+	color: aqua;
+}

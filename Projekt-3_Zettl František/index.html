@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="query.css" />
+		<link id="theme-link" rel="stylesheet" href="light.css" />
+		<script
+			src="https://kit.fontawesome.com/990c232ca9.js"
+			crossorigin="anonymous"
+		></script>
+		<title>Document</title>
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<img src="/images/logo.png" alt="" />
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Registration</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+			<div class="menu-icon">
+				<i class="fa-solid fa-bars"></i>
+				<!-- <i class="fa-solid fa-xmark"></i> -->
+			</div>
+		</header>
+		<div class="btn">
+			<button id="theme-switcher">Switch Theme</button>
+		</div>
+		<section class="about-us">
+			<h1>Exotica Motors</h1>
+			<p>
+				Welcome to Exotica Motors, a small dealership nestled in the heart of
+				town that specializes in rare and exotic cars. Our passion for
+				automotive excellence drives us to curate a collection of the most
+				coveted and breathtaking vehicles from around the world. From the moment
+				you step into our showroom, you'll be enveloped in an ambiance of
+				luxury, sophistication, and automotive artistry. <br />
+
+				At Exotica Motors, we understand that true car enthusiasts seek more
+				than just transportation. They crave a unique driving experience, a
+				connection between man and machine that goes beyond the ordinary. <br />
+
+				Exotica Motors is not just a dealership; it's a destination for
+				automotive enthusiasts who appreciate the extraordinary. Come and
+				immerse yourself in a world where rarity, luxury, and performance
+				converge.
+			</p>
+			<div class="photos">
+				<img src="/images/img1.jpg" alt="" class="img1" />
+				<img src="/images/img2.jpg" alt="" class="img2" />
+				<img src="/images/img3.jpeg" alt="" class="img3" />
+			</div>
+		</section>
+		<section class="registration">
+			<h1>Password check</h1>
+			<form>
+				<input
+					type="password"
+					class="psw1 psw-input"
+					placeholder="Enter password"
+				/>
+				<br />
+				<input
+					type="password"
+					class="psw2 psw-input"
+					placeholder="Enter password again"
+				/>
+				<p class="result-text"></p>
+				<input type="submit" />
+			</form>
+		</section>
+		<div class="scrollBtn">
+			<button id="scrollUpButton" onclick="scrollToTop()">&#8593;</button>
+		</div>
+		<footer>Contact us at <a href="#">exotica.motors@cars.com</a></footer>
+		<script src="script.js"></script>
+	</body>
+</html>
