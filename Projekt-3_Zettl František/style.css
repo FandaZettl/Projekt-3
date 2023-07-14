@@ -45,7 +45,7 @@ nav li a {
 	border: none;
 	font-size: x-small;
 	cursor: pointer;
-	background-color: #083566;
+	background-color: #334558;
 	color: white;
 	position: absolute;
 }
@@ -65,13 +65,16 @@ nav li a {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 .about-us h1 {
 	text-align: center;
 	padding: 10px;
 	text-decoration: underline;
 	font-size: 50px;
+	margin-top: 30px;
+	margin-bottom: 20px;
 }
 p {
 	text-align: center;
@@ -104,7 +107,7 @@ form input {
 }
 form input[type="submit"] {
 	border: none;
-	margin-bottom: 20px;
+	margin-bottom: 60px;
 	background-color: #083566;
 	color: white;
 	cursor: pointer;
@@ -127,9 +130,9 @@ form input[type="submit"] {
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
-	background-color: #333;
+	background-color: #334558;
 	color: #fff;
-	font-size: 24px;
+	font-size: 30px;
 	border: none;
 	margin: 10px;
 	outline: none;
@@ -148,7 +151,7 @@ footer {
 	background-color: #083566;
 	color: white;
 	font-size: small;
-	height: 40px;
+	height: 50px;
 	text-align: center;
 }
 footer a {
